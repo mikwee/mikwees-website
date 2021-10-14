@@ -1,19 +1,19 @@
 {
     "title": "mikwee's online presence",
-    "roots": [
+    "links": [
         {
             "type": "twitter",
-            "link": "https://twitter.com/toon_mikwee",
+            "url": "https://twitter.com/toon_mikwee",
             "text": "My Twitter Account"
         },
         {
             "type": "twitter",
-            "link": "https://twitter.com/NCILCulture",
+            "url": "https://twitter.com/NCILCulture",
             "text": "No Context Israeli Culture"
         },
         {
             "type": "reddit",
-            "link": "https://reddit.com/u/mikwee",
+            "url": "https://reddit.com/u/mikwee",
             "text": "My Reddit Account"
         }
     ]
