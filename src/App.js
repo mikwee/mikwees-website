@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <h1 id="title">{data.title}</h1>
       <div id="container">
-        <AwesomeButton className="roots" type="primary">Facebook</AwesomeButton>
+        
         {/*{data.links.map((rootDetail, index)=>{
           if(rootDetail.type == "facebook") {
             res = <AwesomeButton className="roots"></AwesomeButton>
