@@ -10,19 +10,21 @@ function App() {
   return (
     <div className="App">
       <h1 id="title">{data.title}</h1>
-      <AwesomeButton className="roots"></AwesomeButton>
-      {/*{data.links.map((rootDetail, index)=>{
-        if(rootDetail.type == "facebook") {
-          res = <AwesomeButton className="roots"></AwesomeButton>
-        }
-        else if (rootDetail.type === "basic") {
-          res = 
-        }
-        else {
-          // throw "One of your roots has an unrecognized type. Check out the documentation for the supported types.";
-        }
-        return res;
-      })}*/}
+      <div id="container">
+        <AwesomeButton className="roots" type="primary">Facebook</AwesomeButton>
+        {/*{data.links.map((rootDetail, index)=>{
+          if(rootDetail.type == "facebook") {
+            res = <AwesomeButton className="roots"></AwesomeButton>
+          }
+          else if (rootDetail.type === "basic") {
+            res = 
+          }
+          else {
+            // throw "One of your roots has an unrecognized type. Check out the documentation for the supported types.";
+          }
+          return res;
+        })}*/}
+      </div>
     </div>
   );
 }
