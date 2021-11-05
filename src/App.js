@@ -1,5 +1,6 @@
 import './App.css';
 import {Button} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min'
 import data from './roots.json'
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
       <h1 id="title">{data.title}</h1>
       <div id="container">
-        <Button className="roots" variant="primary"></Button>
+        <Button className="roots" variant="primary" size="lg"></Button>
         {/*{data.links.map((rootDetail, index)=>{
           if(rootDetail.type == "facebook") {
             res = <AwesomeButton className="roots"></AwesomeButton>
