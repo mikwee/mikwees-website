@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <h1 id="title">{data.title}</h1>
       <div id="container">
+        <Button variant="primary"></Button>
         {/*{data.links.map((rootDetail, index)=>{
           if(rootDetail.type == "facebook") {
             res = <AwesomeButton className="roots"></AwesomeButton>
