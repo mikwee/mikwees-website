@@ -1,6 +1,6 @@
 import './App.css';
 import {Button} from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import data from './roots.json'
 
 function App() {
