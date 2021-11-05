@@ -1,7 +1,6 @@
 import './App.css';
 import {AwesomeButton} from 'react-awesome-button';
-import FacebookStyle from './styles/facebook.scss';
-import "react-awesome-button/dist/styles.css";
+import './styles/facebook.css';
 import data from './roots.json'
 
 function App() {
@@ -11,7 +10,7 @@ function App() {
     <div className="App">
       <h1 id="title">{data.title}</h1>
       <div id="container">
-        <AwesomeButton className="roots" cssModule={FacebookStyle} type="primary">Facebook</AwesomeButton>
+        <AwesomeButton className="roots" type="primary">Facebook</AwesomeButton>
         {/*{data.links.map((rootDetail, index)=>{
           if(rootDetail.type == "facebook") {
             res = <AwesomeButton className="roots"></AwesomeButton>
