@@ -1,7 +1,6 @@
 import './App.css';
 import {AwesomeButton} from 'react-awesome-button';
 import FacebookStyle from './styles/facebook.scss';
-import { Button} from './button/Button';
 import data from './roots.json'
 
 function App() {
