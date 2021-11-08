@@ -11,8 +11,8 @@ function App() {
     <div className="App">
       <h1 id="title">{data.title}</h1>
       <div id="container">
-        <Button id="pinterest" variant="primary">Facebook</Button>
-        {/*{data.links.map((rootDetail, index)=>{
+        <Button id="tumblr" variant="primary">Facebook</Button>
+        {data.links.map((rootDetail, index)=>{
           if(rootDetail.type == "facebook") {
             res = <AwesomeButton className="roots"></AwesomeButton>
           }
@@ -23,7 +23,7 @@ function App() {
             // throw "One of your roots has an unrecognized type. Check out the documentation for the supported types.";
           }
           return res;
-        })}*/}
+        })}
       </div>
     </div>
   );
