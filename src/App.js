@@ -5,13 +5,13 @@ import './styles/roots.scss';
 import data from './roots.json'
 
 function App() {
-  const socialTypes = ["facebook", "instagram", "twitter", "github", "youtube", "linkedin", "pinterest", "messenger", "whatsapp"];
+  const socialTypes = ["facebook", "instagram", "twitter", "github", "youtube", "linkedin", "pinterest"];
 
   return (
     <div className="App">
       <h1 id="title">{data.title}</h1>
       <div id="container">
-        <Button id="github" variant="primary">Facebook</Button>
+        <Button id="pinterest" variant="primary">Facebook</Button>
         {/*{data.links.map((rootDetail, index)=>{
           if(rootDetail.type == "facebook") {
             res = <AwesomeButton className="roots"></AwesomeButton>
