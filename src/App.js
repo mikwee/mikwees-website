@@ -7,7 +7,6 @@ import data from './roots.json'
 
 function App() {
   var res;
-  const socialTypes = ["facebook", "instagram", "twitter", "github", "youtube", "linkedin", "pinterest"];
 
   return (
     <div className="App">
