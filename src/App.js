@@ -11,8 +11,8 @@ function App() {
   return (
     <div className="App">
       <h1 id="title">{data.title}</h1>
-      <div id="container">
-        <ButtonGroup vertical>
+
+        <ButtonGroup vertical id="container">
           {data.links.map((rootDetail, index)=>{
             if(rootDetail.type === "facebook") {
               res = <Button id="facebook" variant="primary" href={rootDetail.url}><Facebook/> {rootDetail.text}</Button>
@@ -50,7 +50,6 @@ function App() {
             return res;
           })}
         </ButtonGroup>
-      </div>
     </div>
   );
 }
