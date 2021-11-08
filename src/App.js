@@ -2,6 +2,7 @@ import './App.css';
 import {Button, ButtonGroup} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Facebook, Instagram, Twitter, Github, Youtube, Linkedin, Pinterest, Reddit } from 'react-bootstrap-icons';
+import Tumblr from './icons/Tumblr Icon.svg';
 import './styles/roots.scss';
 import data from './roots.json'
 
