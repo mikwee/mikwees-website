@@ -1,5 +1,18 @@
 $btn-border-radius: 25px;
+$btn-border-width: 0px;
+
 #facebook {
     background-color: #1877f2;
 }
+#instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+#twitter {
+    background-color: #1da1f2;
+}
+#github {
+    background-color: #fafafa;
+    color: #333;
+}
+
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
