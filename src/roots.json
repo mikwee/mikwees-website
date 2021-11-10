@@ -15,6 +15,11 @@
             "type": "reddit",
             "url": "https://reddit.com/u/mikwee",
             "text": "My Reddit Account"
+        },
+        {
+            "type": "tumblr",
+            "url": "https://mikwee.tumblr.com",
+            "text": "My personal Tumblr blog"
         }
     ]
 }
