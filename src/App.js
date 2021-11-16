@@ -37,7 +37,7 @@ function App() {
               res = <Button id="pinterest" variant="primary" href={rootDetail.url}><Pinterest/> {rootDetail.text}</Button>
             }
             else if (rootDetail.type === "tumblr") {
-              res = <Button id="tumblr" variant="primary" href={rootDetail.url}><Tumblr viewBox="250 0 300 200" width="32px" height="32px"/> {rootDetail.text}0</Button>
+              res = <Button id="tumblr" variant="primary" href={rootDetail.url}><Tumblr viewBox="250 0 300 200" width="32px" height="32px"/> {rootDetail.text}</Button>
             }
             else if (rootDetail.type === "reddit") {
               res = <Button id="reddit" variant="primary" href={rootDetail.url}><Reddit/> {rootDetail.text}</Button>
