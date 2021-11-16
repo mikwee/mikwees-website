@@ -6,6 +6,7 @@ $btn-border-width: 0px;
 }
 #instagram {
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    color: black;
 }
 #twitter {
     background-color: #1da1f2;
@@ -21,13 +22,20 @@ $btn-border-width: 0px;
     background-color: #0077b5;
 }
 #pinterest {
-    background-color: #e60023
+    background-color: #e60023;
 }
 #tumblr {
     background-color: #35465c;
+    display: flex;
+    .icon {
+        flex-grow: 1;
+    }
 }
 #reddit {
     background-color: #ff4500;
+}
+#rootContents {
+    margin: 0 auto;
 }
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
