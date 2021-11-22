@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import "@fontsource/roboto/500-italic.css";
+import "@fontsource/roboto/500.css";
 
 ReactDOM.render(
   <React.StrictMode>
