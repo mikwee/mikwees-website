@@ -2,6 +2,7 @@ import './App.css';
 import {Button, ButtonGroup} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BsFacebook, BsInstagram, BsTwitter, BsGithub, BsYoutube, BsLinkedin, BsPinterest, BsReddit } from 'react-icons/bs';
+import {GrTumblr} from 'react-icons/gr';
 import Tumblr from './icons/Tumblr';
 import './styles/roots.scss';
 import data from './roots.json'
@@ -36,7 +37,7 @@ function App() {
             res = <Button className="roots" id="pinterest" variant="primary" href={rootDetail.url}><BsPinterest/> {rootDetail.text}</Button>
           }
           else if (rootDetail.type === "tumblr") {
-            res = <Button className="roots" id="tumblr" variant="primary" href={rootDetail.url}><Tumblr viewBox="250 0 300 200" width="32px" height="32px"/> {rootDetail.text}</Button>
+            res = <Button className="roots" id="tumblr" variant="primary" href={rootDetail.url}><GrTumblr/> {rootDetail.text}</Button>
           }
           else if (rootDetail.type === "reddit") {
             res = <Button className="roots" id="reddit" variant="primary" href={rootDetail.url}><BsReddit/> {rootDetail.text}</Button>
