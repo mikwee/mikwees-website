@@ -31,8 +31,9 @@ $btn-border-width: 0px;
 #tumblr {
     background-color: #35465c;
     display: flex;
-    .icon {
-        flex-grow: 1;
+    align-items: center;
+    .text {
+        margin-left: 1mm;
     }
 }
 #reddit {
