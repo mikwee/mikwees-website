@@ -1,30 +1,55 @@
 {
-    "title": "mikwee's online presence",
+    "title": "LinkRoots Example",
     "links": [
         {
-            "type": "twitter",
-            "url": "https://twitter.com/toon_mikwee",
-            "text": "My Twitter Account"
-        },
-        {
-            "type": "twitter",
-            "url": "https://twitter.com/NCILCulture",
-            "text": "No Context Israeli Culture"
-        },
-        {
-            "type": "reddit",
-            "url": "https://reddit.com/u/mikwee",
-            "text": "My Reddit Account"
-        },
-        {
-            "type": "tumblr",
-            "url": "https://mikwee.tumblr.com",
-            "text": "My personal Tumblr blog"
+            "type": "facebook",
+            "url": "https://facebook.com",
+            "text": "Facebook"
         },
         {
             "type": "instagram",
             "url": "https://instagram.com",
             "text": "Instagram"
+        },
+        {
+            "type": "twitter",
+            "url": "https://twitter.com/toon_mikwee",
+            "text": "Twitter"
+        },
+        {
+            "type": "github",
+            "url": "https://github.com",
+            "text": "GitHub"
+        },
+        {
+            "type": "youtube",
+            "url": "https://youtube.com",
+            "text": "YouTube"
+        },
+        {
+            "type": "linkedin",
+            "url": "https://instagram.com",
+            "text": "LinkedIn"
+        },
+        {
+            "type": "pinterest",
+            "url": "https://instagram.com",
+            "text": "Pinterest"
+        },
+        {
+            "type": "tumblr",
+            "url": "https://mikwee.tumblr.com",
+            "text": "Tumblr"
+        },
+        {
+            "type": "reddit",
+            "url": "https://reddit.com/u/mikwee",
+            "text": "Reddit"
+        },
+        {
+            "type": "basic",
+            "url": "https://mikwee.tumblr.com",
+            "text": "Basic"
         }
     ]
 }
