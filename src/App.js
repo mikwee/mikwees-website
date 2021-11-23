@@ -45,9 +45,6 @@ function App() {
           else if (rootDetail.type === "basic") {
             res = <Button className="roots" variant="primary" href={rootDetail.url}>{rootDetail.text}</Button>
           }
-          else {
-            // throw "One of your roots has an unrecognized type. Check out the documentation for the supported types.";
-          }
           return res;
         })}
       </div>
