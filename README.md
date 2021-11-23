@@ -1,5 +1,5 @@
 # LinkRoots
-<p align="center"><img src="src\logo.png"/></p>
+<p align="center"><img src="logo.png"/></p>
 LinkRoots is a libre, lightweight, self-hosted alternative to Linktree.
 
 ## How to use it
