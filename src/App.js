@@ -37,7 +37,7 @@ function App() {
             res = <Button className="roots" id="pinterest" variant="primary" href={rootDetail.url}><BsPinterest/> {rootDetail.text}</Button>
           }
           else if (rootDetail.type === "tumblr") {
-            res = <Button className="roots" id="tumblr" variant="primary" href={rootDetail.url}><IconContext.Provider value={{size: "1.05em"}}><GrTumblr/></IconContext.Provider> <div className="text">{rootDetail.text}</div></Button>
+            res = <Button className="roots" id="tumblr" variant="primary" href={rootDetail.url}><IconContext.Provider value={{size: "1em"}}><GrTumblr/></IconContext.Provider> <div className="text">{rootDetail.text}</div></Button>
           }
           else if (rootDetail.type === "reddit") {
             res = <Button className="roots" id="reddit" variant="primary" href={rootDetail.url}><BsReddit/> {rootDetail.text}</Button>
