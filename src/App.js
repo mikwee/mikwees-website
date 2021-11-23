@@ -48,6 +48,7 @@ function App() {
           return res;
         })}
       </div>
+      <footer style={{color: "white"}}>Made with LinkRoots</footer>
     </div>
   );
 }
