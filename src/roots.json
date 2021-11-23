@@ -2,6 +2,11 @@
     "title": "LinkRoots Example",
     "links": [
         {
+            "type": "basic",
+            "url": "https://mikwee.tumblr.com",
+            "text": "Basic"
+        },
+        {
             "type": "facebook",
             "url": "https://facebook.com",
             "text": "Facebook"
@@ -45,11 +50,6 @@
             "type": "reddit",
             "url": "https://reddit.com/u/mikwee",
             "text": "Reddit"
-        },
-        {
-            "type": "basic",
-            "url": "https://mikwee.tumblr.com",
-            "text": "Basic"
         }
     ]
 }
