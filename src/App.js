@@ -48,7 +48,7 @@ function App() {
           return res;
         })}
       </div>
-      <footer style={{color: "white"}}>Made with <a>LinkRoots</a></footer>
+      <footer style={{color: "white"}}>Made with <a href="https://gitdab.com/mikwee/linkroots">LinkRoots</a></footer>
     </div>
   );
 }
