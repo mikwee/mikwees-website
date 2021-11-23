@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { IconContext } from 'react-icons/lib';
 import { BsFacebook, BsInstagram, BsTwitter, BsGithub, BsYoutube, BsLinkedin, BsPinterest, BsReddit } from 'react-icons/bs';
 import {GrTumblr} from 'react-icons/gr';
-import Tumblr from './icons/Tumblr';
 import './styles/roots.scss';
 import data from './roots.json'
 
