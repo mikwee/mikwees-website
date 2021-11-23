@@ -1,5 +1,6 @@
 # LinkRoots
 <p align="center"><img src="logo.png"/></p>
+
 LinkRoots is a libre, lightweight, self-hosted alternative to Linktree.
 
 ## How to use it
@@ -10,8 +11,7 @@ LinkRoots is a libre, lightweight, self-hosted alternative to Linktree.
   
 3. Edit `roots.json` to modify the page. The example should be enough to help you understand the format, but feel free to ask me questions if you still don't get it!
   
-4. Host it!
-  
+4. Host it! 
 
 ## Button types
 
