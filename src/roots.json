@@ -3,7 +3,7 @@
     "links": [
         {
             "type": "basic",
-            "url": "https://mikwee.tumblr.com",
+            "url": "https://example.com",
             "text": "Basic"
         },
         {
@@ -18,7 +18,7 @@
         },
         {
             "type": "twitter",
-            "url": "https://twitter.com/toon_mikwee",
+            "url": "https://twitter.com",
             "text": "Twitter"
         },
         {
@@ -43,12 +43,12 @@
         },
         {
             "type": "tumblr",
-            "url": "https://mikwee.tumblr.com",
+            "url": "https://tumblr.com",
             "text": "Tumblr"
         },
         {
             "type": "reddit",
-            "url": "https://reddit.com/u/mikwee",
+            "url": "https://reddit.come",
             "text": "Reddit"
         }
     ]
