@@ -2,54 +2,34 @@
     "title": "LinkRoots Example",
     "links": [
         {
-            "type": "basic",
-            "url": "https://example.com",
-            "text": "Basic"
-        },
-        {
-            "type": "facebook",
-            "url": "https://facebook.com",
-            "text": "Facebook"
-        },
-        {
-            "type": "instagram",
-            "url": "https://instagram.com",
-            "text": "Instagram"
+            "type": "twitter",
+            "link": "https://twitter.com/toon_mikwee",
+            "text": "My Personal Twitter Account"
         },
         {
             "type": "twitter",
-            "url": "https://twitter.com",
-            "text": "Twitter"
-        },
-        {
-            "type": "github",
-            "url": "https://github.com",
-            "text": "GitHub"
-        },
-        {
-            "type": "youtube",
-            "url": "https://youtube.com",
-            "text": "YouTube"
-        },
-        {
-            "type": "linkedin",
-            "url": "https://instagram.com",
-            "text": "LinkedIn"
-        },
-        {
-            "type": "pinterest",
-            "url": "https://instagram.com",
-            "text": "Pinterest"
+            "link": "https://twitter.com/NCILCulture",
+            "text": "No Context Israeli Culture"
         },
         {
             "type": "tumblr",
-            "url": "https://tumblr.com",
-            "text": "Tumblr"
+            "link": "https://mikwee.tumblr.com",
+            "text": "My Personal Tumblr Blog"
+        },
+        {
+            "type": "tumblr",
+            "link": "https://toon-mikwee.tumblr.com",
+            "text": "Toon mikwee"
+        },
+        {
+            "type": "tumblr",
+            "link": "https://bachreviews.tumblr.com",
+            "text": "Bach Reviews"
         },
         {
             "type": "reddit",
-            "url": "https://reddit.come",
-            "text": "Reddit"
+            "link": "https://reddit.com/u/mikwee",
+            "text": "My Reddit Account"
         }
     ]
 }
