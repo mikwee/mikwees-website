@@ -1,5 +1,5 @@
 import './App.css';
-import {Button, ButtonGroup} from 'react-bootstrap';
+import {Button} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { IconContext } from 'react-icons/lib';
 import { BsFacebook, BsInstagram, BsTwitter, BsGithub, BsYoutube, BsLinkedin, BsPinterest, BsReddit } from 'react-icons/bs';
